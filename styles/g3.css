@@ -24,9 +24,20 @@
 .bg-top{
     background-color: rgba(255, 144, 14, 0.1);
 }
+.btn-common{
+    background-color: #FF900E;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+}
 
 
 /* header styles  */
+
+
 
 
 /* navbar styles */
@@ -50,4 +61,20 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+
+/* banner related styles */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-pic{
+    width: 100%;
 }
