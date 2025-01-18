@@ -34,6 +34,11 @@
     border: none;
 }
 
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 /* header styles  */
 
@@ -79,4 +84,27 @@
     width: 100%;
 }
 
+/* team related styles */
+.team{
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 200px;
+    padding: 15px;
+}
+.team-pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-info{
+    margin-left: 60px;
+}
+
 /* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+    
+}
