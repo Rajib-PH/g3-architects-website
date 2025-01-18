@@ -21,6 +21,9 @@
 .text-light-gray{
     color: #727272;
 }
+.bg-top{
+    background-color: rgba(255, 144, 14, 0.1);
+}
 
 
 /* header styles  */
@@ -34,4 +37,17 @@
 .nav-link {
     text-decoration: none;
     font-weight: 500;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
 }
