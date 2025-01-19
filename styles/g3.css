@@ -132,5 +132,17 @@
     .team-pic{
         grid-template-columns: repeat(1, 1fr);
     }
+    .team-info{
+        margin-left: 15px;
+    }   
+}
+/* medium size device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .team{
+        flex-direction: column;
+    }
+    .team-info{
+        margin-left: 50px;
+    }
     
 }
