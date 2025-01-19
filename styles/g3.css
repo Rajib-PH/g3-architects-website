@@ -100,6 +100,11 @@
 .team-info{
     margin-left: 60px;
 }
+.features{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #FF900E;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
