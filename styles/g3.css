@@ -122,6 +122,12 @@
     color: #727272;
 }
 
+/* facts related styles */
+.some-facts{
+    margin-left: 150px;
+    }
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
