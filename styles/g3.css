@@ -99,17 +99,38 @@
 }
 .team-info{
     margin-left: 60px;
+    padding-right: 150px;
 }
 .features{
     font-size: 1.75rem;
     font-weight: 700;
     color: #FF900E;
 }
+.of-our{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #131313 :
+}
+#q-list{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #727272;
+}
+.team-details{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links {
+    .navbar, 
+    .nav-links, 
+    .team {
         flex-direction: column;
+    }
+    .team-pic{
+        grid-template-columns: repeat(1, 1fr);
     }
     
 }
