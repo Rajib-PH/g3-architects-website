@@ -123,9 +123,21 @@
 }
 
 /* facts related styles */
+.achievements{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    }
 .some-facts{
     margin-left: 150px;
     }
+.category{
+    border: 5px solid #FF900E;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    justify-items: center;
+}
 
 
 /* responsive media query */
